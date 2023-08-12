@@ -6,9 +6,8 @@
 /**
  * main - determine if a random number is positive of negative
  *
- * return: 0 on success
+ *	Return: 0 on success
  */
-
 int main(void)
 {
 	int n;

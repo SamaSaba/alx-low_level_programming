@@ -4,7 +4,7 @@
 
 
 /**
- * main - entry point
+ * main - main function
  * 	return: always 0 (success)
  */
 
@@ -13,10 +13,10 @@ int main(void)
 {
 	char low;
 	for(low = 'a' ; low <= 'z' ; low++)
-		putchar('low');
+		putchar(low);
 			
-	for(low = 'A' ; low <= 'Z' ; lpw++)
-		putchar('low');
+	for(low = 'A' ; low <= 'Z' ; low++)
+		putchar(low);
 			putchar('\n');
 
 			return (0);

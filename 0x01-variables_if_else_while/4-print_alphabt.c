@@ -1,15 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - main function
+ * main - entry point
  *
- * return: alwayz 0 
+ * Description: print all the letters except q and e
+ *
+ * return: always 0
 */
 
 int main(void)
 
 {
-	char i; 
+	char i;
+
 	for (i = 'a' ; i <= 'z' ; i++)
 		if (i != 'q' && i != 'e')
 			putchar(i);

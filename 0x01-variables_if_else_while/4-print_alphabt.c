@@ -1,15 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - main function
  *
- * Description: print all the letters except q and e
- *
- * return: always 0
+ * return: always 0 (success)
 */
-
 int main(void)
-
 {
 	char i;
 

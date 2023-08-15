@@ -19,13 +19,13 @@ int main(void)
 	putchar(d);
 	putchar(p);
 	if (d == '8' && p == '9')
-	contintue;
+	continue;
 	putchar(',');
 	putchar(' ');
 	}
 	}
 	}
-	putchar('\n')
-	return (0)
+	putchar('\n');
+	return (0);
 }
 
